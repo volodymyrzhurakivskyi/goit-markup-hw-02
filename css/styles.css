@@ -19,6 +19,8 @@ body {
   font-family: var(--font-family);
   margin-top: 24px;
   margin-left: 12px;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .logo {
@@ -26,12 +28,18 @@ body {
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  color: #000;
+  color: var(--navy-blue);
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo span {
   font-family: var(--second-family);
-  color: blue;
+  color: var(--iris);
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .nav-list {
@@ -40,6 +48,8 @@ body {
   font-weight: 500;
   list-style: none;
   color: var(--navy-blue);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-list a:hover,
@@ -50,11 +60,19 @@ body {
 .nav-list a {
   text-decoration: none;
 }
+
+.contact-adress {
+  font-style: normal;
+}
 .contact-list {
+  color: var(--slate);
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
   list-style: none;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-list a {
@@ -78,15 +96,24 @@ body {
   font-weight: 700;
   text-align: center;
   color: var(--white);
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   font-family: var(--font-family);
   color: var(--white);
-  width: 169px;
-  height: 56px;
-  background: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  background: var(--iris);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--ocean);
 }
 
 .features-list {
@@ -98,17 +125,34 @@ body {
   font-weight: 500;
   font-size: 20px;
   color: var(--navy-blue);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .features-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background: var(--cloud);
+}
+
+.team {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
 }
 
 .team-list {
   list-style: none;
-  background: var(--cloud);
 }
 
 .team-item {
@@ -120,18 +164,12 @@ body {
   background: var(--white);
 }
 
-.team {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: var(--navy-blue);
-}
-
 .team-subtitle {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
 }
@@ -140,6 +178,8 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--slate);
 }
@@ -152,7 +192,9 @@ body {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
-
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: var(--navy-blue);
 }
 
@@ -160,6 +202,8 @@ body {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
@@ -167,6 +211,8 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -181,21 +227,28 @@ body {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: var(--cloud);
+  text-decoration: none;
 }
 
 .logo-footer span {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--cloud);
+  color: var(--iris);
 }
 
 .footer-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--cloud);
 }
