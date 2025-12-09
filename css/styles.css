@@ -61,6 +61,7 @@ ul {
 
 .nav-list a {
   text-decoration: none;
+  color: var(--navy-blue);
 }
 
 .contact-address {
@@ -78,6 +79,7 @@ ul {
 
 .contact-list a {
   text-decoration: none;
+  color: var(--slate);
 }
 
 .contact-list a:hover,
@@ -87,6 +89,11 @@ ul {
 
 .hero {
   background-color: var(--navy-blue);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .hero-title {
